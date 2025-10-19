@@ -1,16 +1,20 @@
-Speaker 1: Tu as vu le dernier film de Batman ? C'était incroyable !  
-Speaker 2: Oui ! La noirceur de Gotham, c’était presque palpable. J’adore cette ambiance.  
-Speaker 1: Et Bruce Wayne ! Je trouve son personnage tellement complexe…  
-Speaker 2: Totally! A perfect mix of lumière et obscurité — very intriguing.  
-Speaker 1: Et la Batmobile ? Elle a l’air d’être un vrai monstre sur roues !  
-Speaker 2: Oui, un bijou d’ingénierie. Qui ne voudrait pas en conduire une ?  
-Speaker 1: Imagine dans les rues de Paris, tout le monde tournerait la tête !  
-Speaker 2: Haha, imagine Batman au sommet de la Tour Eiffel… un vrai spectacle !  
-Speaker 1: Oh là là, et Robin se demanderait où cacher son costume !  
-Speaker 2: Peut-être dans un café, un croissant à la main. Très discret, non ?  
-Speaker 1: Absolutely! Batman's secret identity with a side of pain au chocolat.  
-Speaker 2: Qu’est-ce qu’on ferait sans ces histoires ? Elles transportent vraiment !  
-Speaker 1: C’est vrai. Batman nous rappelle que même dans l'ombre, il y a de l'espoir.  
-Speaker 2: Exactement. Toujours un éclat de lumière au milieu des ténèbres…  
-Speaker 1: Alors, un café Batman pour fêter ça ?  
-Speaker 2: Oui ! Avec un petit peu de chocolat, comme notre héros.  
+Speaker 1: Salut ! Tu as déjà pensé aux APIs comme des LEGO ?  
+Speaker 2: Oh oui, c’est une comparaison amusante ! On les assemble facilement.  
+Speaker 1: Exactement ! Chaque pièce, une fonction à ajouter au projet.  
+Speaker 2: Et on peut créer des choses incroyables, juste avec des blocs simples.  
+Speaker 1: Parfois, c’est un peu chaotique ! Les pièces ne s’emboîtent pas toujours bien.  
+Speaker 2: C’est vrai, mais c’est là que la magie opère, non ?  
+Speaker 1: Oui, il suffit d’être créatif, de trouver la bonne combinaison.  
+Speaker 2: Comme un puzzle ! On ne sait jamais ce qu’on va obtenir.  
+Speaker 1: Et quand ça fonctionne, c’est la joie totale !  
+Speaker 2: C’est comme quand un enfant termine son château de LEGO !  
+Speaker 1: Ou quand tu déploies ton API et qu’elle fonctionne à merveille.  
+Speaker 2: La satisfaction, c’est un peu comme un bon chocolat chaud, tu ne trouves pas ?  
+Speaker 1: Absolutely! Un délice à savourer après tant d’efforts.  
+Speaker 2: Alors, on assemble une petite application ensemble bientôt ?  
+Speaker 1: Oui, let’s do it! Ça va être fun!  
+Speaker 2: Parfait, je suis prêt pour l’aventure LEGO des APIs !  
+Speaker 1: Et ce sera encore mieux si on partage des idées en cours de route.  
+Speaker 2: Absolutely! Collaboration makes everything shine brighter, comme les étoiles.  
+Speaker 1: On commence notre construction la semaine prochaine ?  
+Speaker 2: Bien sûr ! Je suis impatient de voir notre créatif en action.
