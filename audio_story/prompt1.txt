@@ -1,0 +1,14 @@
+<instruction>
+create dialogue betweet two personnage about "la bonne ambiance de vivre à paris"
+</instruction>
+<exemple>
+
+    Speaker 1: Bonjour! What a beautiful day in Paris, don’t you think? The sunlight makes the whole city shimmer.  
+    Speaker 2: Absolutely! After all those grey mornings, it feels like Paris finally woke up. Even the Eiffel Tower seems happier.  
+    Speaker 1: Haha, true! I walked along the Seine earlier — the light danced on the water like tiny golden stars.  
+    Speaker 2: That’s so poetic! Maybe we should have lunch outside today, somewhere with a view of Montmartre.  
+    Speaker 1: Perfect idea. A terrace, a café crème, and a bit of sunshine — that’s all we need.  
+    Speaker 2: Paris in the sun really has a different rhythm. People smile more, and the city hums softly instead of rushing.  
+    Speaker 1: Yes… it’s like time slows down just enough for us to breathe and enjoy it.  
+    Speaker 2: Alors, on y va? Let’s make the most of this sunlight before the next rain decides to visit!  
+</exemple>

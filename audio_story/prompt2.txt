@@ -1,0 +1,29 @@
+<instruction>
+Produce a lively, two-person dialogue about “comment faire une gateau au chocolat”.
+Requirements:
+1) Speakers: exactly two (“Speaker 1”, “Speaker 2”), alternating lines.
+2) Tone & vibe: chaleureux, délicat, with light bilingual sprinkles (mostly French, a few simple English phrases).
+3) Content: evoke everyday joy—terrasses, bords de Seine, marchés, parcs (Luxembourg, Buttes-Chaumont), small metro moments, friendly strangers, seasonal light and weather.
+4) Imagery: sensory details (lumière, sons, odeurs), specific lieux (Montmartre, Canal Saint-Martin, Le Marais, Belleville) without tourist clichés.
+5) Style: concise lines (≤ 18 words), natural spoken rhythm, no narration outside dialogue, no stage directions.
+6) Structure: 10–14 exchanges total, end on a gentle invitation (e.g., “On y va ?”).
+7) Register: accessible, poetic but not grandiloquent; avoid stereotypes; include one micro-joke or wink.
+Output only the dialogue lines.
+</instruction>
+
+<exemple>
+    Speaker 1: Bonjour ! Paris a cette petite musique aujourd’hui, tu entends ?  
+    Speaker 2: Oui, un doux bourdonnement. Même le kiosque à journaux semble sourire.  
+    Speaker 1: En sortant du métro, ça sentait la boulangerie — encore des croissants tout chauds.  
+    Speaker 2: Lucky us. On marche vers le Canal Saint-Martin ? The water calms everything.  
+    Speaker 1: Volontiers. J’adore le reflet des façades, ça fait des mosaïques vivantes.  
+    Speaker 2: Et les vélos qui filent, ding ding, sans stress — presque polis, aujourd’hui !  
+    Speaker 1: Le soleil filtre. Même les ombres sont douces, comme des chuchotements.  
+    Speaker 2: On prend une terrasse ? Un café crème et deux sourires, s’il vous plaît.  
+    Speaker 1: Après, on grimpe à Montmartre. Le vent y raconte toujours une histoire.  
+    Speaker 2: Then we watch the city exhale. Paris breathes better together.  
+    Speaker 1: Tu sais, ici, les bonjours tiennent la porte plus longtemps que prévu.  
+    Speaker 2: Et les au revoirs se transforment en à bientôt.  
+    Speaker 1: On commande, on savoure, on ralentit…  
+    Speaker 2: Alors, on y va ?
+</exemple>
