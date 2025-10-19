@@ -1,5 +1,5 @@
 <instruction>
-    Produce a lively, two-person dialogue about “[TOPIC]”.
+    Produce a lively, two-person dialogue about “batman”.
     Requirements:
     1) Speakers: exactly two (“Speaker 1”, “Speaker 2”), alternating lines.
     2) Tone & vibe: chaleureux, délicat, with light bilingual sprinkles (mostly French, a few simple English phrases).
