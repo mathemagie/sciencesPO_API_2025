@@ -1,0 +1,84 @@
+---
+globs: *.sh
+---
+
+# Shell Script Best Practices
+
+## Safety First
+Always start scripts with these lines for better error handling:
+```bash
+#!/bin/bash
+set -e          # Exit on any error
+set -u          # Exit on undefined variables
+set -o pipefail # Exit on pipe failures
+```
+
+## User Experience
+
+### Interactive Prompts
+Make prompts clear and friendly:
+```bash
+read -p "🎭 Entrez le thème du dialogue : " THEME
+THEME=${THEME:-"default value"}  # Provide default fallback
+```
+
+### Visual Feedback
+Use colors and emojis to make output readable:
+- 📝 For input/configuration
+- 💬 For dialogue generation
+- 🔊 For audio generation
+- 🎨 For image generation
+- ✅ For success
+- ❌ For errors
+
+```bash
+echo -e "\n📝 Thème choisi : \033[1;34m$THEME\033[0m\n"
+```
+
+**Color Codes:**
+- `\033[1;34m` = Blue (info)
+- `\033[1;32m` = Green (success)
+- `\033[1;33m` = Yellow (warning/processing)
+- `\033[1;36m` = Cyan (Speaker 1)
+- `\033[1;35m` = Magenta (Speaker 2)
+- `\033[0m` = Reset color
+
+## File Operations
+
+### Template Processing
+Use `sed` for simple substitutions:
+```bash
+sed "s/\[TOPIC\]/$THEME/g" prompt2.txt > prompt2.temp.txt
+```
+
+### Pipeline Commands
+Prefer pipes for clarity:
+```bash
+cat prompt2.temp.txt | llm > dialogue.txt
+```
+
+## Error Handling
+Check if required commands exist:
+```bash
+if ! command -v llm &> /dev/null; then
+    echo "❌ Error: 'llm' command not found. Please install it first."
+    exit 1
+fi
+```
+
+## Script Organization for [create.sh](mdc:create.sh)
+
+1. **Setup** - Set bash options, define variables
+2. **Input** - Get user input with defaults
+3. **Generate Dialogue** - Use LLM with template
+4. **Display** - Show formatted dialogue
+5. **Generate Audio** - Call Python script
+6. **Generate Image** - Call Python script
+7. **Cleanup** (optional) - Remove temporary files
+
+## Integration
+The main script [create.sh](mdc:create.sh) orchestrates:
+- [prompt2.txt](mdc:prompt2.txt) template → [prompt2.temp.txt](mdc:prompt2.temp.txt)
+- LLM → [dialogue.txt](mdc:dialogue.txt)
+- [ai_studio_code.py](mdc:ai_studio_code.py) → WAV files
+- [generate_image.py](mdc:generate_image.py) → PNG image

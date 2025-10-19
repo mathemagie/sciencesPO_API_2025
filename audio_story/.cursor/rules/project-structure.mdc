@@ -1,0 +1,59 @@
+---
+alwaysApply: true
+---
+
+# Audio Story Generator - Project Structure
+
+This project generates multi-modal content (dialogue, audio, images) using Google Gemini APIs.
+
+## Core Files
+
+### Main Scripts
+- [create.sh](mdc:create.sh) - **Main orchestration script**. Run this to generate everything:
+  1. Prompts user for a topic
+  2. Generates dialogue using LLM
+  3. Creates audio with text-to-speech
+  4. Generates a manga-style image
+
+- [ai_studio_code.py](mdc:ai_studio_code.py) - **Audio generation**
+  - Uses Google Gemini TTS (gemini-2.5-pro-preview-tts)
+  - Reads from [dialogue.txt](mdc:dialogue.txt)
+  - Creates multi-speaker audio with different voices (Zephyr & Puck)
+  - Outputs: `ENTER_FILE_NAME_*.wav` files
+
+- [generate_image.py](mdc:generate_image.py) - **Image generation**
+  - Uses Replicate's Google Nano-Banana model
+  - Reads from [dialogue.txt](mdc:dialogue.txt)
+  - Creates manga-style images based on dialogue
+  - Outputs: [my-image.png](mdc:my-image.png)
+
+### Configuration & Templates
+- [prompt2.txt](mdc:prompt2.txt) - **Dialogue template** with `[TOPIC]` placeholder
+- [prompt2.temp.txt](mdc:prompt2.temp.txt) - Temporary file created during generation
+- [dialogue.txt](mdc:dialogue.txt) - **Generated dialogue content** (always 2 speakers)
+
+## Workflow
+
+```
+User Input (topic) 
+  ↓
+create.sh → Dialogue Generation (LLM via prompt2.txt)
+  ↓
+dialogue.txt (saved)
+  ↓
+ai_studio_code.py → Audio Generation
+  ↓
+generate_image.py → Image Generation
+  ↓
+Output: WAV file + PNG image
+```
+
+## Environment Requirements
+- `GEMINI_API_KEY` - Required for audio generation
+- `REPLICATE_API_TOKEN` - Required for image generation
+- `llm` CLI tool - Required for dialogue generation
+
+## Important Notes
+- Always read from [dialogue.txt](mdc:dialogue.txt), never hardcode dialogue
+- Maintain two-speaker format: "Speaker 1:" and "Speaker 2:"
+- Files prefixed with `ENTER_FILE_NAME_` are generated outputs (can be cleaned up)

@@ -1,0 +1,92 @@
+---
+alwaysApply: true
+---
+
+# Beginner-Friendly Code Guidelines
+
+This project is for learning. All code changes should be educational and accessible.
+
+## Communication Style
+
+### When Explaining Code
+1. **Define technical terms** - Don't assume knowledge
+2. **Use analogies** - Connect concepts to real-world examples
+3. **Break down complexity** - Explain step-by-step
+4. **Encourage questions** - Make it safe to ask for clarification
+
+### Code Comments
+Every script should include:
+```python
+# What this script does: [High-level purpose]
+# How it works:
+#   1. [Step 1 explanation]
+#   2. [Step 2 explanation]
+#   3. [Step 3 explanation]
+# Dependencies: [What needs to be installed]
+# Environment: [What environment variables are needed]
+```
+
+## Learning Opportunities
+
+### When Adding Features
+- Explain **why** this approach was chosen
+- Show **alternatives** that were considered
+- Point out **best practices** being demonstrated
+- Highlight **common pitfalls** to avoid
+
+### When Fixing Bugs
+- Explain **what** went wrong
+- Show **how** to identify similar issues
+- Teach **debugging techniques**
+- Turn errors into learning moments
+
+## Code Quality for Beginners
+
+### Readability Over Cleverness
+❌ BAD (too clever):
+```python
+dialogue = [l.strip() for l in open('dialogue.txt') if l.strip()]
+```
+
+✅ GOOD (clear and educational):
+```python
+# Open the dialogue file and read all lines
+with open('dialogue.txt', 'r', encoding='utf-8') as file:
+    # Read each line and remove extra whitespace
+    dialogue_lines = file.readlines()
+    # Filter out empty lines
+    dialogue = [line.strip() for line in dialogue_lines if line.strip()]
+```
+
+### Explicit Over Implicit
+- Use descriptive variable names: `speaker_1_voice` not `s1v`
+- Add type hints when helpful: `def save_file(filename: str, data: bytes) -> None:`
+- Include docstrings for functions
+
+### Error Messages That Teach
+```python
+if not os.path.exists("dialogue.txt"):
+    print("❌ Error: dialogue.txt not found!")
+    print("💡 Tip: Run 'bash create.sh' first to generate the dialogue.")
+    print("📚 Learn more: dialogue.txt is created by the LLM based on your topic.")
+    exit(1)
+```
+
+## Documentation Standards
+- **README**: Should explain the whole project in simple terms
+- **Installation steps**: Include every command needed
+- **Examples**: Show actual usage with real output
+- **Troubleshooting**: Address common beginner mistakes
+
+## AI Integration Points
+
+This project teaches working with multiple AI APIs:
+1. **LLM API** (via llm CLI) - Text generation
+2. **Google Gemini TTS** - Speech synthesis
+3. **Replicate/Imagen** - Image generation
+
+Each integration should be:
+- Clearly separated (one file per API)
+- Well-documented
+- Error-handled with helpful messages
+- Demonstrating one concept at a time

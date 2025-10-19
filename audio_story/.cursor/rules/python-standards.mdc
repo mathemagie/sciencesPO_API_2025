@@ -1,0 +1,64 @@
+---
+globs: *.py
+---
+
+# Python Coding Standards for Audio Story Generator
+
+## General Principles
+This is a beginner-friendly project. Code should be:
+1. **Simple and readable** - Avoid complex one-liners
+2. **Well-commented** - Explain what each section does
+3. **Educational** - Code should teach good practices
+
+## Specific Guidelines
+
+### File Operations
+✅ **DO**: Always use context managers and specify encoding
+```python
+with open("dialogue.txt", "r", encoding="utf-8") as f:
+    dialogue_text = f.read()
+```
+
+❌ **DON'T**: Leave files open or forget encoding
+```python
+f = open("dialogue.txt")  # Missing encoding, not closed properly
+```
+
+### Environment Variables
+✅ **DO**: Use `os.environ.get()` with the correct key names
+- `GEMINI_API_KEY` - For Google Gemini APIs
+- `REPLICATE_API_TOKEN` - For Replicate APIs
+
+### Error Handling
+**IMPORTANT**: Add error handling for beginners to understand what went wrong
+```python
+try:
+    with open("dialogue.txt", "r", encoding="utf-8") as f:
+        dialogue_text = f.read()
+except FileNotFoundError:
+    print("❌ Error: dialogue.txt not found. Please run create.sh first!")
+    exit(1)
+```
+
+### Code Comments
+- Add comments explaining **WHY**, not just **WHAT**
+- Document function parameters and return values
+- Explain API-specific requirements
+
+### Dependencies
+Always include installation instructions at the top:
+```python
+# To run this code you need to install the following dependencies:
+# pip install google-genai
+```
+
+### Naming Conventions
+- Use descriptive variable names: `dialogue_text`, not `d` or `txt`
+- Functions should be verbs: `generate()`, `save_binary_file()`
+- Constants in CAPS: `MODEL_NAME = "gemini-2.5-pro-preview-tts"`
+
+### Integration with dialogue.txt
+**CRITICAL**: Both [ai_studio_code.py](mdc:ai_studio_code.py) and [generate_image.py](mdc:generate_image.py) must:
+1. Read from [dialogue.txt](mdc:dialogue.txt)
+2. Handle missing file gracefully
+3. Preserve UTF-8 encoding for French characters
