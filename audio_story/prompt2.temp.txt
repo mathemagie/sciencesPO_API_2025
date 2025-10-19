@@ -1,5 +1,5 @@
 <instruction>
-    Produce a lively, two-person dialogue about “lego et ingrédient recette de cuisine”.
+    Produce a lively, two-person dialogue about “titi et gros minet font la teuf à paris”.
     Requirements:
     1) Speakers: exactly two (“Speaker 1”, “Speaker 2”), alternating lines.
     2) Tone & vibe: chaleureux, délicat, with light bilingual sprinkles (mostly French, a few simple English phrases).
