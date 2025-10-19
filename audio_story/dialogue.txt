@@ -1,20 +1,20 @@
-Speaker 1: Salut ! Tu as déjà pensé aux APIs comme des LEGO ?  
-Speaker 2: Oh oui, c’est une comparaison amusante ! On les assemble facilement.  
-Speaker 1: Exactement ! Chaque pièce, une fonction à ajouter au projet.  
-Speaker 2: Et on peut créer des choses incroyables, juste avec des blocs simples.  
-Speaker 1: Parfois, c’est un peu chaotique ! Les pièces ne s’emboîtent pas toujours bien.  
-Speaker 2: C’est vrai, mais c’est là que la magie opère, non ?  
-Speaker 1: Oui, il suffit d’être créatif, de trouver la bonne combinaison.  
-Speaker 2: Comme un puzzle ! On ne sait jamais ce qu’on va obtenir.  
-Speaker 1: Et quand ça fonctionne, c’est la joie totale !  
-Speaker 2: C’est comme quand un enfant termine son château de LEGO !  
-Speaker 1: Ou quand tu déploies ton API et qu’elle fonctionne à merveille.  
-Speaker 2: La satisfaction, c’est un peu comme un bon chocolat chaud, tu ne trouves pas ?  
-Speaker 1: Absolutely! Un délice à savourer après tant d’efforts.  
-Speaker 2: Alors, on assemble une petite application ensemble bientôt ?  
-Speaker 1: Oui, let’s do it! Ça va être fun!  
-Speaker 2: Parfait, je suis prêt pour l’aventure LEGO des APIs !  
-Speaker 1: Et ce sera encore mieux si on partage des idées en cours de route.  
-Speaker 2: Absolutely! Collaboration makes everything shine brighter, comme les étoiles.  
-Speaker 1: On commence notre construction la semaine prochaine ?  
-Speaker 2: Bien sûr ! Je suis impatient de voir notre créatif en action.
+Speaker 1: Tu sais, j'aime toujours mélanger mes Lego et ma cuisine, c'est un peu fou !  
+Speaker 2: Ah oui ? Comment tu fais ça ? C’est comme un jeu d’enfants, non ?  
+Speaker 1: Exactement ! J’utilise des pièces pour créer des formes pour mes plats.  
+Speaker 2: C’est amusant ! Des lasagnes en Lego, ça pourrait faire rire tout le monde.  
+Speaker 1: Oui, ou un gâteau en briques ! Tu imagines le regard des invités ?  
+Speaker 2: Haha, j'adore l'idée ! Mais des briques comestibles, ça existe ?  
+Speaker 1: En fait, oui ! Je fais des biscuits en forme de Lego parfois.  
+Speaker 2: Oh là là, je suis curieux ! La recette est simple ?  
+Speaker 1: Très simple ! Un peu de farine, sucre, et beaucoup d’amour.  
+Speaker 2: Et les couleurs ? Comment tu les obtiens ?  
+Speaker 1: Des colorants alimentaires, c’est magique ! Les enfants adorent.  
+Speaker 2: C’est une belle façon d'apprendre en cuisinant. On pourrait essayer !  
+Speaker 1: Absolument ! Une session de cuisine Lego, c’est le plan parfait.  
+Speaker 2: Je suis partant ! Qui apporterait les ingrédients ? Your place or mine ?  
+Speaker 1: Chez moi, j’ai une cuisine géante, on pourra créer des chefs-d'œuvre !  
+Speaker 2: Génial ! Je prends les Lego, et tu prépares la pâte ?  
+Speaker 1: Deal ! On va passer un moment inoubliable.  
+Speaker 2: On fera aussi des photos ! Souvenirs savoureux et colorés.  
+Speaker 1: Oui, et après, on dégustera nos créations tout en riant !  
+Speaker 2: Ça sonne comme un parfait dimanche. Je suis impatient !

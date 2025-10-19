@@ -32,3 +32,7 @@ echo -e "\n\033[1;32m--- Fin du dialogue ---\033[0m\n"
 echo -e "\n🔊 \033[1;32mGénération audio...\033[0m\n"
 python3 ai_studio_code.py
 echo -e "\n\033[1;32m--- Fin de la génération audio ---\033[0m\n"
+
+echo -e "\n🎨 \033[1;32mGénération de l'image...\033[0m\n"
+python3 generate_image.py
+echo -e "\n\033[1;32m--- Fin de la génération de l'image ---\033[0m\n"
