@@ -89,6 +89,8 @@ Un carnet de notes personnalisé **NotebookLM**, qui regroupe un large éventail
 - Utiliser des templates préexistants de la bibliothèque Zapier
 - Tester et activer un Zap en mode production
 
+
+
 #### 🚀 Niveau 2 : Pratique (Intermédiaire)
 - Créer des Zaps multi-étapes avec 3+ applications connectées
 - Utiliser les **filtres** (Filters) pour traiter seulement certaines données
@@ -96,7 +98,11 @@ Un carnet de notes personnalisé **NotebookLM**, qui regroupe un large éventail
 - Comprendre les concepts de mapping de champs et de formatage de données (JSON)
 
 
-https://zapier.com/editor/265326870/draft
+Un Zap envoie automatiquement un résumé par email dès que j’ajoute un lien dans la base de données de liens Notion (via un bookmarklet) : https://zapier.com/editor/265326870/draft
+
+Envoi automatique par email de la transcription d’un fichier audio déposé sur Google Drive : [Voir le Zap](https://zapier.com/editor/265910519/draft/_GEN_1730897430198/sample)  
+➡️ Possibilité d’ajouter une étape ChatGPT pour générer et envoyer également les points clés de l’audio par email.
+
 
 
 #### 🏆 Niveau 3 : Maîtrise (Avancé)
@@ -107,8 +113,21 @@ https://zapier.com/editor/265326870/draft
 - Gérer l'authentification OAuth pour des services tiers
 - Implémenter les bonnes pratiques de **sécurité** : gestion des clés API, protection des données sensibles
 
-https://zapier.com/editor/266173143/published
 
+🔗 [Zap : Changer la couleur de ma lampe selon la météo](https://zapier.com/editor/266173143/published)
+
+- [Candle Bluetooth Master](https://candle-bluetooth-master.vercel.app/)
+- [Express API dédiée](https://express-swart-gamma.vercel.app/)
+
+**Compétences et notions mises en pratique dans ces workflows :**
+- Utilisation d’API cognitives, de données et applicatives
+- Enchaînement de plusieurs étapes (workflows multi-étapes)
+- Manipulation, transformation et structuration des données JSON
+- Application de la logique conditionnelle PATH dans Zapier pour des scénarios avancés
+- Filtrage précis et ciblé des informations
+- Mise en place de Webhooks pour l’échange de données entre services externes
+- Transmission de paramètres via des requêtes GET
+- Génération d’une clé API sur https://platform.openai.com/, compréhension de son usage et des limitations associées
 
 
 
