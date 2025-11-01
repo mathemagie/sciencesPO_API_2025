@@ -96,6 +96,9 @@ Un carnet de notes personnalisé **NotebookLM**, qui regroupe un large éventail
 - Comprendre les concepts de mapping de champs et de formatage de données (JSON)
 
 
+https://zapier.com/editor/265326870/draft
+
+
 #### 🏆 Niveau 3 : Maîtrise (Avancé)
 - Utiliser le module **HTTP/Webhooks** pour connecter des APIs personnalisées (GET versus POST )
 - Créer des **assistants IA** avec l'intégration ChatGPT (OpenAI)
@@ -103,9 +106,11 @@ Un carnet de notes personnalisé **NotebookLM**, qui regroupe un large éventail
 - Construire des workflows complexes avec itérations et boucles (Iterator, Line Itemizer)
 - Gérer l'authentification OAuth pour des services tiers
 - Implémenter les bonnes pratiques de **sécurité** : gestion des clés API, protection des données sensibles
-- Documenter et partager des Zaps avec l'équipe (Team Folders)
-- Utiliser les **Storage** et **Tables** de Zapier pour stocker des données entre exécutions
-- Monitorer les performances et optimiser les coûts d'automatisation
+
+https://zapier.com/editor/266173143/published
+
+
+
 
 #### 📚 Ressources complémentaires
 - [**Zapier Academy**](https://zapier.com/learn) – Formations gratuites en ligne (vidéos, exercices)
