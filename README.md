@@ -73,3 +73,68 @@ Un carnet de notes personnalisé **NotebookLM**, qui regroupe un large éventail
 #### 🎥 Pour approfondir
 
 [NotebookLM : l’outil ULTIME des étudiants et enseignants !](https://www.youtube.com/watch?v=FdFCzdA-aHg)
+
+
+
+## 📚 Cours 3
+
+### 📖 Parcours d'apprentissage Zapier
+
+#### 🎯 Niveau 1 : Fondamentaux (Débutant)
+- Comprendre le concept d'automatisation no-code et son intérêt pour la productivité
+- Créer un compte Zapier gratuit (plan Free disponible)
+- Explorer l'interface et le tableau de bord Zapier
+- Assimiler la logique fondamentale : **Trigger (déclencheur) → Action (tâche)**
+- Créer son premier Zap simple (exemple : Gmail → Google Sheets)
+- Utiliser des templates préexistants de la bibliothèque Zapier
+- Tester et activer un Zap en mode production
+- Comprendre la notion de "tâches" (Tasks) et les limites du plan gratuit
+
+#### 🚀 Niveau 2 : Pratique (Intermédiaire)
+- Créer des Zaps multi-étapes avec 3+ applications connectées
+- Utiliser les **filtres** (Filters) pour traiter seulement certaines données
+- Configurer des **délais** (Delays) pour différer des actions
+- Gérer les erreurs via les logs et le système de notifications
+- Maîtriser les **chemins conditionnels** (Paths) pour des workflows dynamiques
+- Intégrer des applications métier : CRM (Salesforce, HubSpot), marketing (Mailchimp), productivité (Trello, Asana)
+- Optimiser les workflows existants pour réduire le nombre de tâches consommées
+- Comprendre les concepts de mapping de champs et de formatage de données
+
+#### 🏆 Niveau 3 : Maîtrise (Avancé)
+- Utiliser le module **HTTP/Webhooks** pour connecter des APIs personnalisées
+- Créer des **assistants IA** avec l'intégration ChatGPT (OpenAI)
+- Manipuler et transformer des données (formatage, parsing JSON, opérations sur texte)
+- Construire des workflows complexes avec itérations et boucles (Iterator, Line Itemizer)
+- Gérer l'authentification OAuth pour des services tiers
+- Implémenter les bonnes pratiques de **sécurité** : gestion des clés API, protection des données sensibles
+- Documenter et partager des Zaps avec l'équipe (Team Folders)
+- Utiliser les **Storage** et **Tables** de Zapier pour stocker des données entre exécutions
+- Monitorer les performances et optimiser les coûts d'automatisation
+
+#### 📚 Ressources complémentaires
+- [**Zapier Academy**](https://zapier.com/learn) – Formations gratuites en ligne (vidéos, exercices)
+- [**Zapier Community**](https://community.make.com/) – Forum d'entraide et partage d'expériences
+- [**Templates Library**](https://zapier.com/app/templates) – Bibliothèque de +7000 automatisations prêtes à l'emploi
+- [**Documentation officielle**](https://help.zapier.com/) – Guides techniques et références
+- [**Zapier Blog**](https://zapier.com/blog/) – Cas d'usage, bonnes pratiques, nouveautés
+
+---
+
+
+
+### 🤖 Automatisation de ChatGPT avec Zapier
+
+➡️ [**How to automate ChatGPT**](https://zapier.com/blog/automate-chatgpt/) _(Zapier Blog, août 2025)_
+
+**Concepts clés :**
+- Intégration de ChatGPT avec des workflows Zapier pour automatiser des tâches à grande échelle
+- Cas d'usage pratiques : génération de contenu marketing, qualification de leads, résumés de données
+- Orchestration automatique entre ChatGPT et des milliers d'applications (Gmail, Slack, Sheets, etc.)
+- Création d'assistants IA personnalisés dans différents outils (Slack, Gmail, Asana)
+- Traitement audio : transcription et traduction automatiques de fichiers sonores
+- Automatisation de la productivité : gestion de tâches, rappels de calendrier, priorisation intelligente
+- Intégration ChatGPT dans des processus métier critiques sans compétences techniques
+- Modèle d'automatisation "trigger → action → output" appliqué à l'IA générative
+
+
+
