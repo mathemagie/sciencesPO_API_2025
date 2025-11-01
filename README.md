@@ -43,9 +43,30 @@ https://sacra.com/c/openai/ (2025)
 
 ## Cours 2
 
-### Slides
-- [Présentation sur le concept d'API appliqué aux objets connectés (exemples : humain, chat, avion, etc.)](https://docs.google.com/presentation/d/1_7dPkHPIg2kdiqRpnfSkkKn2A4ZIh5klf3JbHWBOaC4/edit#slide=id.g75cd6f2284_0_419)
+---
 
-### NotebookLM associé au cours 
+### 📑 Slides
+[Présentation sur le concept d'API appliqué aux objets connectés (humain, chat, avion, etc.)](https://docs.google.com/presentation/d/1_7dPkHPIg2kdiqRpnfSkkKn2A4ZIh5klf3JbHWBOaC4/edit#slide=id.g75cd6f2284_0_419)
 
-- Un carnet de notes dédié "NotebookLM" rassemblant un maximum de ressources sélectionnées par mes soins (dont certaines issues du fichier [RESSOURCES.md](RESSOURCES.md)) est disponible ici : https://notebooklm.google.com/notebook/0f89d372-4bae-453e-b28c-52364887d043
+---
+
+### 📝 NotebookLM du cours
+
+Un carnet de notes personnalisé **NotebookLM**, qui regroupe un large éventail de ressources sélectionnées (certaines tirées du fichier [`RESSOURCES.md`](RESSOURCES.md)), est accessible ici :  
+👉 [Accéder au NotebookLM](https://notebooklm.google.com/notebook/0f89d372-4bae-453e-b28c-52364887d043)
+
+---
+
+### 💡 Suggestions de questions
+
+- **A.** *En quoi la stratégie de plateforme de développement d’OpenAI permet-elle de diffuser les bénéfices de l’IA générale à l’échelle mondiale ?*  
+  <sub>Répondre en français.</sub>
+
+- **B.** *Peux-tu m’expliquer ce qu’est une API comme si j’avais 10 ans, en utilisant la métaphore des Lego ?*  
+  <sub>Répondre en français.</sub>
+
+- **C.** *En quoi la notion d’API transforme-t-elle en profondeur la manière de concevoir un service en ligne ?*  
+  <sub>Répondre en français.</sub>
+
+
+Pour approfondir la découverte de l’outil, voici une vidéo recommandée : [NotebookLM : l’outil ULTIME des étudiants et enseignants !](https://www.youtube.com/watch?v=FdFCzdA-aHg)
