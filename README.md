@@ -154,4 +154,13 @@ Envoi automatique par email de la transcription d’un fichier audio déposé su
 - Modèle d'automatisation "trigger → action → output" appliqué à l'IA générative
 
 
-
+## 🗒️ Annexes — Glossaire express
+- Trigger: événement déclencheur d’un Zap.
+- Action: tâche effectuée en réaction au Trigger.
+- Task: unité de facturation (chaque action consommée).
+- Template: Zap préconfiguré prêt à cloner.
+- Filter: condition qui laisse passer ou bloque un run.
+- Path: branchement conditionnel multi-voies dans un Zap.
+- Webhook: appel HTTP entrant/sortant pour échanger des données.
+- OAuth: protocole d’autorisation sécurisée par jetons.
+- JSON: format de données clé-valeur pour APIs/webhooks.
