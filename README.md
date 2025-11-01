@@ -85,23 +85,19 @@ Un carnet de notes personnalisé **NotebookLM**, qui regroupe un large éventail
 - Créer un compte Zapier gratuit (plan Free disponible)
 - Explorer l'interface et le tableau de bord Zapier
 - Assimiler la logique fondamentale : **Trigger (déclencheur) → Action (tâche)**
-- Créer son premier Zap simple (exemple : Gmail → Google Sheets)
+- Créer son premier Zap simple (exemple : Gmail → Google Sheets) Oauth
 - Utiliser des templates préexistants de la bibliothèque Zapier
 - Tester et activer un Zap en mode production
-- Comprendre la notion de "tâches" (Tasks) et les limites du plan gratuit
 
 #### 🚀 Niveau 2 : Pratique (Intermédiaire)
 - Créer des Zaps multi-étapes avec 3+ applications connectées
 - Utiliser les **filtres** (Filters) pour traiter seulement certaines données
-- Configurer des **délais** (Delays) pour différer des actions
-- Gérer les erreurs via les logs et le système de notifications
 - Maîtriser les **chemins conditionnels** (Paths) pour des workflows dynamiques
-- Intégrer des applications métier : CRM (Salesforce, HubSpot), marketing (Mailchimp), productivité (Trello, Asana)
-- Optimiser les workflows existants pour réduire le nombre de tâches consommées
-- Comprendre les concepts de mapping de champs et de formatage de données
+- Comprendre les concepts de mapping de champs et de formatage de données (JSON)
+
 
 #### 🏆 Niveau 3 : Maîtrise (Avancé)
-- Utiliser le module **HTTP/Webhooks** pour connecter des APIs personnalisées
+- Utiliser le module **HTTP/Webhooks** pour connecter des APIs personnalisées (GET versus POST )
 - Créer des **assistants IA** avec l'intégration ChatGPT (OpenAI)
 - Manipuler et transformer des données (formatage, parsing JSON, opérations sur texte)
 - Construire des workflows complexes avec itérations et boucles (Iterator, Line Itemizer)
@@ -113,14 +109,11 @@ Un carnet de notes personnalisé **NotebookLM**, qui regroupe un large éventail
 
 #### 📚 Ressources complémentaires
 - [**Zapier Academy**](https://zapier.com/learn) – Formations gratuites en ligne (vidéos, exercices)
-- [**Zapier Community**](https://community.make.com/) – Forum d'entraide et partage d'expériences
 - [**Templates Library**](https://zapier.com/app/templates) – Bibliothèque de +7000 automatisations prêtes à l'emploi
 - [**Documentation officielle**](https://help.zapier.com/) – Guides techniques et références
 - [**Zapier Blog**](https://zapier.com/blog/) – Cas d'usage, bonnes pratiques, nouveautés
 
 ---
-
-
 
 ### 🤖 Automatisation de ChatGPT avec Zapier
 
